@@ -3,9 +3,9 @@ Adotar abordagem ágil:
 1. Time (squad): qual nome?
 - Eduardo = Tech leader?
 - André = Agile Coach
-- Dany = 
+- Dany = Desenvolvimento
 - Gustavo = 
-- Filipe = 
+- Filipe = Desenvolvimento
 - ...
 
 Funções: Dev, Tester/QA, Tech Leader, Agile Master
