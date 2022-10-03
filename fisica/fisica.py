@@ -4,13 +4,14 @@ class Fisica:
 
     def gerar_dispositivos(self, dispositivos):
         for dispositivo in dispositivos:
-            if dispositivo['ruido']:
+            if dispositivo["ruido"]:
                 pass
             else:
                 pass
 
     def gerar_conectores(self, conectores):
         pass
+
 
 """
 

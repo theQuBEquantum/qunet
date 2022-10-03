@@ -1,5 +1,6 @@
 """Criação da Topologia"""
 from abc import ABC, abstractmethod
+
 from canal import Canal
 from no import No
 
@@ -26,14 +27,14 @@ class Topologia(ABC):
         pass
 
 
-if __name__ == '__main__':
-    teste = {'no': {'A': {'num_qubits': 2,
-                          'sistema': 'supercondutor',
-                          'tipo': 'processador'},
-                    'B': {'num_qubits': 2}},
-             'canal': {'classico': {('A', 'B'): None},
-                       'quantico': {('A', 'B'): None}}
-             }
+if __name__ == "__main__":
+    teste = {
+        "no": {
+            "A": {"num_qubits": 2, "sistema": "supercondutor", "tipo": "processador"},
+            "B": {"num_qubits": 2},
+        },
+        "canal": {"classico": {("A", "B"): None}, "quantico": {("A", "B"): None}},
+    }
 
     """
     Estruturas:
