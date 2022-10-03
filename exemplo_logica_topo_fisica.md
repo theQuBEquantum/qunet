@@ -8,13 +8,14 @@ dados: dict
 
 - classe Topologia(dados)
 	- método/subclasse Topologia.InterfaceFisica(dados[...]) -> Fisica.InterfaceTopologia(dados)
+  - método/subclasse Topologia.InterfaceAplicação(dados[...]) - > Aplicação.InterfaceTopologia(dados)
 
 
 
 
 - classe Fisica()
 	- método/subclasse Fisica.InterfaceTopologia(dados[...]) -> Fisica.CriarComponente(dados[...])
-	- método/subclasse Fisica.CriarComponente(dados[...]) -> (Fisica.Processador(), Fisica.Memoria(), Fisica.MeioComunicação(), etc)
+	- método/subclasse Fisica.CriarComponente(dados[...]) -> (Fisica.Componente.Processador(), Fisica.Componente.Memoria(), Fisica.Componente.MeioComunicação(), etc)
 	- método/subclasse Fisica.Processador() -> (Fisica.Supercondutor(), Fisica.NV(), Fisica.RMN(), etc)
 	- método/subclasse Fisica.Memoria() -> (...,)
 	- método/subclasse Fisica.MeioComunicação() -> (Fisica.FibraOptica(), Fisica.Atmosfera(), Fisica.Espaço(), Fisica.Hibrida(), etc)
@@ -33,5 +34,33 @@ dados: dict
 				- ligação entre interna e externa (ex: ressonador)
 
 
-			- $H = \under{\text{independentes}}{\frac{\omega}{2} \sigma_z} + \under{\text{interação entre os subsistemas i, j}}{\sum_{ij, i \diff j}{Vint_{i,j}}}$
+			- $H = \underbrace{\text{independentes}}{\frac{\omega}{2} \sigma_z} + \underbrace{\text{interação entre os subsistemas i, j}}{\sum_{ij, i \diff j}{Vint_{i,j}}}$
 
+
+
+class Fisica(ABC):
+  pass
+
+class InterfaceTopologia(Fisica):
+  pass
+
+class CriarComponente(Fisica):
+  pass
+
+class Componente(Fisica):
+  pass
+
+class Processador(Componente):
+  pass
+
+class Supercondutor(Componente):
+  pass
+
+class Memoria(Componente):
+  pass
+
+class MeioComunicação(Componente):
+  pass
+
+class FibraOptica(Componente):
+  pass
