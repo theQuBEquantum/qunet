@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80b48dfe-e015-41ae-9bfd-b4376ff17559" name="Changes" comment="" />
+    <list default="true" id="80b48dfe-e015-41ae-9bfd-b4376ff17559" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,10 +40,15 @@
       <workItem from="1664818222982" duration="76000" />
       <workItem from="1664818758666" duration="22000" />
       <workItem from="1665112299295" duration="20000" />
+      <workItem from="1667233586957" duration="37000" />
+      <workItem from="1668389293786" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/qunet$interface.coverage" NAME="interface Coverage Results" MODIFIED="1667233608575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/topologia" />
   </component>
 </project>
