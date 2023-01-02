@@ -1,0 +1,23 @@
+Topologia ->
+* iterar sobre os nós
+	* nó: "A"
+		No("A", **parametros_de_A) e colocar em algum lugar na classe Topologia
+* iterar sobre os canais
+	* iterar sobre os canais classicos: 
+		* canal: "A" -> "B"
+			Classico("A", "B", **parametros_do_canal_classico_AB) e colocar em algum lugar na classe Topologia
+	* iterar sobre os canais quanticos:
+		* canal: "A" -> "B"
+			Quantico("A", "B", **parametros_do_canal_quantico_AB) e colocar em algum lugar na classe Topologia
+
+* conectar os nós com os respectivos canais de alguma forma na classe Topologia
+
+...
+
+topo = Topologia("teste", dicionario_da_minha_rede)
+topo.listar_nós()
+>> [Nó("A"), Nó("B")]
+
+topo.desenhar_rede()
+
+>> A--B 
