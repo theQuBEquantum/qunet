@@ -1,4 +1,4 @@
-from no import Nó
+from qunet.topologia.no import Nó
 
 
 # Gerações de repetidores

@@ -1,6 +1,6 @@
 import PySimpleGUI as sg
 
-from recebe_ruido import recebe_ruído
+from qunet.interface.recebe_ruido import recebe_ruído
 
 
 def recebe_novo_nó(nós_rede):

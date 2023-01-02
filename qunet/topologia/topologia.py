@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
 
-from theqube_qunet.topologia.canal import Canal
-from theqube_qunet.topologia.no import Nó
+from qunet.topologia.canal import Canal
+from qunet.topologia.no import Nó
 
 
 # TODO: Docstrings

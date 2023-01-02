@@ -1,4 +1,4 @@
-from recebe_novo_nó import recebe_novo_nó
+from qunet.interface.recebe_novo_nó import recebe_novo_nó
 # TODO: Função desnecessária... excluir
 
 

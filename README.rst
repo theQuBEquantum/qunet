@@ -2,6 +2,13 @@
 QuNET
 =====
 
+TODO
+----
+* Escrever README
+* Escrever documentação
+
+
+
 
 .. image:: https://img.shields.io/pypi/v/qunet.svg
         :target: https://pypi.python.org/pypi/qunet
